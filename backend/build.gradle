@@ -26,6 +26,7 @@ plugins {
     id 'java'
     id 'idea'
     id 'org.springframework.boot' version "${springBootVer}"
+    id 'org.sonarqube' version '6.0.1.5171'
 }
 
 apply plugin: 'io.spring.dependency-management'
